@@ -1,0 +1,15 @@
+The scrip run_analysis.R retrieves the data and cleans/prepares it as outlined for the project.
+
+1. The data is downloaded using the link, and the zip file is extracted. 
+
+2. Dataframes containing information about features, activities, and x, y, and subject data for both training and testing are created from the extracted files.
+
+3. The dataframes for the training and testing pairs are binded by combining rows. After that is done, all the data is combined together by binding columns.
+
+4. Next, the column names are searched through to only contain values related to the activity, subject, means, and standard deviations.
+
+5. Activites are then descriptively named using the data from the activity dataframe.
+
+6. The names of all of the variables were then made more descriptive and coherent.
+
+7. The final tidy data was then made by grouping the data by subject and activity while finding the means for all.
